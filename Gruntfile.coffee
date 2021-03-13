@@ -13,7 +13,7 @@ module.exports = (grunt) ->
   accountName = process.env.VTEX_ACCOUNT or pkg.accountName or 'basedevmkp'
   environment = process.env.VTEX_ENV or pkg.env or 'vtexcommercestable'
   secureUrl = process.env.VTEX_SECURE_URL or pkg.secureUrl or true
-  port = process.env.PORT or pkg.port or 80
+  port = process.env.PORT or pkg.port or 5000
 
   console.log('Running on port ' + port)
 

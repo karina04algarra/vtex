@@ -1,6 +1,6 @@
 {
   "name": "vtex-speed",
-  "accountName": "CHANGEME",
+  "accountName": "brandliveco",
   "version": "5.0.0",
   "secureUrl": true,
   "readmeFilename": "README.md",
@@ -30,7 +30,7 @@
     "grunt-sass-import": "^0.2.2",
     "grunt-spritesmith": "^6.3.1",
     "jpegtran-bin": "^3.0.4",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.14.1",
     "node-sass-tilde-importer": "^1.0.2",
     "proxy-middleware": "^0.15.0",
     "serve-static": "^1.10.0"
@@ -47,5 +47,7 @@
     "vtex"
   ],
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
